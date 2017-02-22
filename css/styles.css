@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: purple;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+
+  width: 100vw;
+  height: 150px;
+}
+
+#menu-main-flex-container {
+  display: flex;
+}
+
+#menu {
+  border-width: 3px;
+  border-color: pink;
+  border-style: solid;
+
+  height: calc(100vh - 150px);
+  width: 250px;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+#main {
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+
+  width: calc(100vw - 250px);
+  height: calc(100vh - 150px);
+
+  display: flex;
+  justify-content: flex-end;
+}
