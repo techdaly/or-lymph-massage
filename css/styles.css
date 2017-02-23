@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: 'Josefin Slab', serif;
+}
+
 html, body {
   margin: 0px;
   padding: 0px;
@@ -139,4 +143,31 @@ box-shadow: -10px -10px 60px -1px rgba(56,56,56,0.68);
   flex-flow: column;
   justify-content: flex-end;
   padding: 50px;
+}
+
+#main-text {
+  width: 700px;
+}
+
+#main-text h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#main-text h4 {
+  font-size: 18px;
+}
+
+#main-text p {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 18px;
 }
