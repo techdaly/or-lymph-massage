@@ -7,18 +7,71 @@
 }
 
 html, body {
-  background-color: purple;
   margin: 0px;
   padding: 0px;
 }
 
+body {
+  background-image: url('./../img/confectionary_purple.png');
+  background-repeat: repeat;
+}
+
 #header {
-  border-width: 3px;
+  /*border-width: 3px;
   border-color: white;
-  border-style: solid;
+  border-style: solid;*/
 
   width: 100vw;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+}
+
+#logo {
   height: 150px;
+  width: auto;
+  margin-left: 35px;
+}
+
+#logo-img {
+  margin-top: 10px;
+  height: 275px;
+  width: auto;
+}
+
+#site-title {
+  display: flex;
+  flex-flow: column;
+  /*align-items: center;*/
+  margin-top: 35px;
+}
+
+#site-title p{
+  font-size: 48px;
+  color: beige;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 100px;
+
+  font-family: 'Josefin Slab', serif;
+}
+#site-title h3 {
+  font-size: 48px;
+  color: beige;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 100px;
+  font-family: 'Playball', cursive;
+}
+
+#site-title h6 {
+  font-size: 18px;
+  color: beige;
+  margin-top: 15px;
+  padding: 0px;
+  margin-left: 100px;
+  font-family: 'Josefin Slab', serif;
 }
 
 #menu-main-flex-container {
@@ -26,26 +79,64 @@ html, body {
 }
 
 #menu {
-  border-width: 3px;
+  /*border-width: 3px;
   border-color: pink;
-  border-style: solid;
+  border-style: solid;*/
+  padding-top: 125px;
 
-  height: calc(100vh - 150px);
+  height: calc(100vh - 200px);
   width: 250px;
 
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  /*flex-flow: column;*/
+}
+
+#menu-text p {
+  font-size: 24px;
+  color: beige;
+  padding: 5px;
+
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+
+#menu-text a {
+  text-decoration: none;
+  color: beige;
+}
+
+#menu-text a:hover,
+#menu-text a:focus {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+#janelle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 #main {
-  border-width: 3px;
+  /*border-width: 3px;
   border-color: black;
-  border-style: solid;
-  background-color: white;
+  border-style: solid;*/
+
+  border-radius: 50px 0px 0px 0px;
+  background-image: url('./../img/lightpaperfibers.png');
+  background-repeat: repeat;
+
+  -webkit-box-shadow: -10px -10px 60px -1px rgba(56,56,56,0.68);
+-moz-box-shadow: -10px -10px 60px -1px rgba(56,56,56,0.68);
+box-shadow: -10px -10px 60px -1px rgba(56,56,56,0.68);
 
   width: calc(100vw - 250px);
-  height: calc(100vh - 150px);
+  min-height: calc(100vh - 200px);
 
   display: flex;
+  flex-flow: column;
   justify-content: flex-end;
+  padding: 50px;
 }
