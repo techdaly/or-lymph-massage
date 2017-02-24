@@ -78,6 +78,10 @@ body {
   font-family: 'Josefin Slab', serif;
 }
 
+#site-title a {
+  text-decoration: none;
+}
+
 #menu-main-flex-container {
   display: flex;
 }
