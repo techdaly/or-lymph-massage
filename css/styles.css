@@ -403,21 +403,72 @@ ul {
 /*///////////////////////// EXTRA SMALL ///////////////////////////*/
 
 @media only screen and (max-width: 590px) {
+
+  #logo {
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #logo-img {
+    margin-top: 10px;
+    height: 115px;
+    width: auto;
+  }
+
   #site-title p{
-    font-size: 36px;
+    font-size: 24px;
     margin: 0px;
     padding: 0px 5px 0px 5px;
   }
 
   #site-title h3 {
-    font-size: 36px;
+    font-size: 24px;
     margin: 0px;
     padding: 0px 5px 0px 5px;
   }
 
   #site-title h6 {
-    font-size: 18px;
+    font-size: 12px;
     margin-top: 15px;
     padding: 0px 5px 0px 5px;
+  }
+
+  #menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: 100vw;
+    background-color: #2F0475;
+  }
+
+  #menu-text li {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  #menu-items {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  #main {
+    border-radius: 0px 0px 0px 0px;
+    background-image: url('./../img/lightpaperfibers.png');
+    background-repeat: repeat;
+
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(56,56,56,0.68);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(56,56,56,0.68);
+    box-shadow: 0px 0px 0px 0px rgba(56,56,56,0.68);
+
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    padding: 30px;
   }
 }
