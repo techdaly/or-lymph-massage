@@ -114,6 +114,12 @@ ul {
   font-size: 18px;
 }
 
+#special-bullet {
+  list-style: circle;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
 /*///////////////////////// WIDE VIEW ///////////////////////////*/
 @media only screen and (min-width: 916px) {
   #header {
