@@ -1,3 +1,5 @@
+/* Background pattern from Subtle Patterns */
+
 /*///////////////////////// CONSTANT CODE ///////////////////////////*/
 
 *,
@@ -9,7 +11,7 @@
 }
 
 * {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Antic Slab', serif;
 }
 
 html, body {
@@ -29,6 +31,7 @@ body {
 #site-title p{
   color: beige;
   font-family: 'Josefin Slab', serif;
+  font-weight: bold;
 }
 
 #site-title h3 {
@@ -77,22 +80,28 @@ body {
 
 #main-text h3 {
   margin-top: 20px;
-  margin-bottom: 10px;
   font-size: 24px;
+  padding: 0px;
 }
 
 #main-text h4 {
   font-size: 18px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 #main-text p {
-  margin-top: 50px;
   font-size: 18px;
 }
 
 #main-text img{
   margin-bottom: 0px;
   margin-top: 30px;
+}
+
+#main-text ul {
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 #footer {
@@ -196,7 +205,7 @@ ul {
     box-shadow: -10px -10px 60px -1px rgba(56,56,56,0.68);
 
     width: calc(100vw - 250px);
-    min-height: 100vh;
+    min-height: calc(100vh - 200px);
 
     display: flex;
     flex-flow: column;
@@ -286,11 +295,11 @@ ul {
     background-repeat: repeat;
 
     width: calc(100vw - 250px);
-    min-height: 100vh;
+    min-height: calc(100vh - 200px);
 
     display: flex;
     flex-flow: column;
-    justify-content: flex-end;
+    justify-content: space-between;;
     padding: 50px;
   }
 
@@ -386,11 +395,11 @@ ul {
     box-shadow: 0px 0px 0px 0px rgba(56,56,56,0.68);
 
     width: 100vw;
-    min-height: 100vh;
+    min-height: auto;
 
     display: flex;
     flex-flow: column;
-    justify-content: flex-end;
+    justify-content: space-between;;
     padding: 50px;
   }
 
@@ -468,7 +477,7 @@ ul {
 
     display: flex;
     flex-flow: column;
-    justify-content: flex-end;
+    justify-content: space-between;;
     padding: 30px;
   }
 }
